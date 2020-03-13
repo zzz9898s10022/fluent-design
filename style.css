@@ -1,0 +1,1344 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.z-index-2 {
+  z-index: 2;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+}
+
+body a:hover {
+  text-decoration: none;
+}
+
+body header {
+  width: 100%;
+  height: 48px;
+  padding: 0 10%;
+}
+
+@media (max-width: 768px) {
+  body header {
+    padding: 2% 2% 0 10%;
+  }
+}
+
+body header .styleheader .logo {
+  width: 16px;
+  margin: 0 175px 0 0;
+  min-width: 20px;
+}
+
+@media (max-width: 1024px) {
+  body header .styleheader .logo {
+    margin: 0 35px 0 0;
+  }
+}
+
+body header .styleheader .logo .logobox1 {
+  background-color: white;
+  width: 7px;
+  height: 7px;
+  margin: 0 2px 2px 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body header .styleheader .logo .logobox2 {
+  background-color: white;
+  width: 7px;
+  height: 7px;
+  margin: 0 0 2px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body header .styleheader .logo .logobox3 {
+  background-color: white;
+  width: 7px;
+  height: 7px;
+  margin: 0 2px 0 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body header .styleheader .logo .logobox4 {
+  background-color: white;
+  width: 7px;
+  height: 7px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body header .styleheader .logo:hover .logobox1 {
+  background-color: red;
+}
+
+body header .styleheader .logo:hover .logobox2 {
+  background-color: green;
+}
+
+body header .styleheader .logo:hover .logobox3 {
+  background-color: darkcyan;
+}
+
+body header .styleheader .logo:hover .logobox4 {
+  background-color: orange;
+}
+
+body header .styleheader .fluent {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  min-width: 155px;
+}
+
+body header .styleheader .fluent a {
+  color: white;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+body header .styleheader .fluent a:hover {
+  color: #0078d4;
+}
+
+body header .styleheader .nav {
+  height: 48px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 0px 120px 0px 420px;
+}
+
+@media (max-width: 1340px) {
+  body header .styleheader .nav {
+    padding: unset;
+  }
+}
+
+@media (max-width: 768px) {
+  body header .styleheader .nav {
+    display: none;
+  }
+}
+
+body header .styleheader .nav ul {
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+@media (max-width: 1460px) {
+  body header .styleheader .nav ul {
+    padding: 0px 60px 0px 120px;
+  }
+}
+
+@media (max-width: 1024px) {
+  body header .styleheader .nav ul {
+    padding: 0px 0px 0px 120px;
+  }
+}
+
+body header .styleheader .nav ul a {
+  color: white;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+body header .styleheader .nav ul :nth-child(1) a:hover {
+  color: #258ede;
+}
+
+body header .styleheader .nav ul :nth-child(2) a:hover {
+  color: #4fe5ff;
+}
+
+body header .styleheader .nav ul :nth-child(3) a:hover {
+  color: #cf8fff;
+}
+
+body header .styleheader .nav ul :nth-child(4) a:hover {
+  color: #69e56e;
+}
+
+body header .styleheader .mobileBgmenu {
+  font-size: 30px;
+  color: white;
+  margin-left: auto;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  body header .styleheader .mobileBgmenu {
+    display: block;
+  }
+}
+
+body main {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body main .styleIntroduction {
+  width: 100%;
+  padding: 8% 10% 3%;
+}
+
+body main .styleIntroduction .contain-sc {
+  width: 410px;
+}
+
+@media (max-width: 1280px) {
+  body main .styleIntroduction .contain-sc {
+    width: 50%;
+  }
+}
+
+@media (max-width: 960px) {
+  body main .styleIntroduction .contain-sc {
+    width: 60%;
+  }
+}
+
+@media (max-width: 670px) {
+  body main .styleIntroduction .contain-sc {
+    width: 100%;
+  }
+}
+
+body main .styleIntroduction .contain-sc h1 {
+  width: 100%;
+  min-width: 400px;
+  font-size: 64px;
+}
+
+@media (max-width: 767px) {
+  body main .styleIntroduction .contain-sc h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 670px) {
+  body main .styleIntroduction .contain-sc h1 {
+    font-size: 48px;
+    line-height: 58px;
+  }
+}
+
+body main .styleIntroduction .contain-sc p {
+  width: 100%;
+  max-width: 352px;
+  margin: 100px 0px 30px;
+}
+
+@media (max-width: 1460px) {
+  body main .styleIntroduction .contain-sc p {
+    max-width: 384px;
+  }
+}
+
+@media (max-width: 960px) {
+  body main .styleIntroduction .contain-sc p {
+    width: 100%;
+    max-width: 352px;
+  }
+}
+
+@media (max-width: 767px) {
+  body main .styleIntroduction .contain-sc p {
+    margin: 60px 0px 30px;
+  }
+}
+
+body main .styleIntroduction .media-sc {
+  width: calc(100% - 410px);
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 1280px) {
+  body main .styleIntroduction .media-sc {
+    padding: 0px 40px;
+  }
+}
+
+@media (max-width: 870px) {
+  body main .styleIntroduction .media-sc {
+    height: 80%;
+  }
+}
+
+@media (max-width: 670px) {
+  body main .styleIntroduction .media-sc {
+    display: none;
+  }
+}
+
+body main .styleIntroduction .media-sc .line-white-02 {
+  position: absolute;
+  left: 130px;
+  bottom: 160px;
+}
+
+@media (max-width: 1680px) {
+  body main .styleIntroduction .media-sc .line-white-02 {
+    left: 30px;
+    bottom: 160px;
+  }
+}
+
+@media (max-width: 1460px) {
+  body main .styleIntroduction .media-sc .line-white-02 {
+    left: 0;
+    bottom: 120px;
+  }
+}
+
+body main .styleIntroduction .media-sc .icon-fluent {
+  max-width: 100%;
+}
+
+@media (max-width: 670px) {
+  body main .styleIntroduction .media-sc .icon-fluent {
+    display: none;
+  }
+}
+
+body main .styleIntroduction .media-sc .line-white-01 {
+  position: absolute;
+  top: -20px;
+  right: 200px;
+}
+
+@media (max-width: 1680px) {
+  body main .styleIntroduction .media-sc .line-white-01 {
+    top: -40px;
+    right: 36px;
+  }
+}
+
+@media (max-width: 1460px) {
+  body main .styleIntroduction .media-sc .line-white-01 {
+    top: 15px;
+    right: 36px;
+  }
+}
+
+@media (max-width: 1280px) {
+  body main .styleIntroduction .media-sc .line-white-01,
+  body main .styleIntroduction .media-sc .line-white-02 {
+    display: none;
+  }
+}
+
+body main .fourCard {
+  padding: 0 10%;
+  position: relative;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (max-width: 1024px) {
+  body main .fourCard {
+    padding: unset;
+  }
+}
+
+body main .fourCard a {
+  width: 25%;
+  color: black;
+}
+
+@media (max-width: 1024px) {
+  body main .fourCard a {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  body main .fourCard a {
+    width: 100%;
+  }
+}
+
+body main .fourCard::before {
+  content: "";
+  width: 50vw;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+  background-color: #2280c8;
+}
+
+body main .fourCard::after {
+  content: "";
+  width: 50vw;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
+  background-color: #5fcf63;
+}
+
+body main .fourCard #card1 {
+  background-color: #258ede;
+}
+
+body main .fourCard #card1:hover {
+  background-color: #0c75c5;
+}
+
+body main .fourCard #card2 {
+  background-color: #4fe5ff;
+}
+
+body main .fourCard #card2:hover {
+  background-color: #36cce6;
+}
+
+body main .fourCard #card3 {
+  background-color: #cf8fff;
+}
+
+body main .fourCard #card3:hover {
+  background-color: #b676e6;
+}
+
+body main .fourCard #card4 {
+  background-color: #69e56e;
+}
+
+body main .fourCard #card4:hover {
+  background-color: #50cc55;
+}
+
+body main .fourCard .card {
+  width: 100%;
+  padding: 26px 25px;
+  min-height: 96px;
+}
+
+body main .fourCard .card .card-img {
+  width: 100%;
+  height: 100px;
+  min-height: 96px;
+}
+
+body main .fourCard .card h2 {
+  margin-bottom: 26px;
+}
+
+body main .fourCard .card p {
+  padding: 0 0 10px;
+  min-height: 85px;
+}
+
+body main .banner1 {
+  width: 100%;
+  min-height: 768px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(./img/msft-verge-fluent.jpg);
+  background-attachment: fixed;
+  padding: 0 10%;
+}
+
+@media (max-width: 1280px) {
+  body main .banner1 {
+    min-height: 668px;
+  }
+}
+
+@media (max-width: 670px) {
+  body main .banner1 {
+    min-height: 768px;
+  }
+}
+
+body main .banner1 .Naturalon {
+  margin-bottom: 40px;
+  position: relative;
+  color: black;
+}
+
+body main .banner1 .Naturalon h2 {
+  font-size: 96px;
+  line-height: 120px;
+}
+
+@media (max-width: 1024px) {
+  body main .banner1 .Naturalon h2 {
+    font-size: 86px;
+    line-height: 90px;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 670px) {
+  body main .banner1 .Naturalon h2 {
+    font-size: 64px;
+    line-height: 70px;
+  }
+}
+
+body main .banner1 .Peoplemove {
+  width: 100%;
+  max-width: 384px;
+  padding: 0px 16px 0px 24px;
+}
+
+@media (max-width: 1280px) {
+  body main .banner1 .Peoplemove {
+    margin: 0px;
+    padding: 0px 5px;
+  }
+}
+
+@media (max-width: 1024px) {
+  body main .banner1 .Peoplemove {
+    padding: 0px 0px 0px 4px;
+  }
+}
+
+body main .banner1 .Peoplemove p {
+  color: black;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+body main .banner1 .rect-white-01 {
+  position: absolute;
+  right: 60px;
+  top: -150px;
+}
+
+@media (max-width: 670px) {
+  body main .banner1 .rect-white-01 {
+    display: none;
+  }
+}
+
+body main .sphere {
+  background-color: #191919;
+}
+
+body main .sphere img {
+  width: 100%;
+}
+
+@media (max-width: 740px) {
+  body main .sphere img {
+    width: 75vw;
+  }
+}
+
+body main .spherDescription {
+  width: 100%;
+  background-color: #191919;
+  color: white;
+}
+
+body main .spherDescription p {
+  width: 384px;
+  margin: unset;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  margin-left: auto;
+}
+
+@media (max-width: 670px) {
+  body main .spherDescription p {
+    margin-left: unset;
+  }
+}
+
+body main .terrafomaBg {
+  width: 100%;
+  height: 80vh;
+  background-image: url(./img/terraforma@1x.png);
+  background-size: cover;
+  background-position: center;
+  padding: 23% 10%;
+  position: relative;
+}
+
+body main .terrafomaBg .line-white-03 {
+  position: absolute;
+  top: -700px;
+  left: 20px;
+}
+
+body main .terrafomaBg .plane-solid {
+  position: absolute;
+  bottom: -90px;
+  right: -215px;
+}
+
+@media (max-width: 1460px) {
+  body main .terrafomaBg .plane-solid {
+    display: none;
+  }
+}
+
+body main .terrafomaBg .plane-outline {
+  position: absolute;
+  bottom: -205px;
+  right: -215px;
+}
+
+@media (max-width: 1460px) {
+  body main .terrafomaBg .plane-outline {
+    display: none;
+  }
+}
+
+body main .terrafomaBg .terraTitle h2 {
+  font-size: 96px;
+  line-height: 128px;
+  color: black;
+  position: absolute;
+  bottom: 80px;
+  width: 100%;
+}
+
+@media (max-width: 1280px) {
+  body main .terrafomaBg .terraTitle h2 {
+    line-height: 104px;
+    left: 5%;
+  }
+}
+
+@media (max-width: 1024px) {
+  body main .terrafomaBg .terraTitle h2 {
+    bottom: 60px;
+    font-size: 86px;
+    line-height: 90px;
+  }
+}
+
+@media (max-width: 670px) {
+  body main .terrafomaBg .terraTitle h2 {
+    font-size: 64px;
+    line-height: 70px;
+  }
+}
+
+@media (max-width: 500px) {
+  body main .terrafomaBg .terraTitle h2 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+}
+
+body main .skyBg {
+  width: 100%;
+  min-height: 948px;
+  background-image: url(./img/clouds.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+@media (max-width: 1280px) {
+  body main .skyBg {
+    min-height: 668px;
+  }
+}
+
+body main .skyBg .skyTitle1 h2 {
+  font-size: 295px;
+  position: absolute;
+  top: -65px;
+  left: 10%;
+  color: black;
+}
+
+@media (max-width: 1460px) {
+  body main .skyBg .skyTitle1 h2 {
+    top: -20px;
+  }
+}
+
+@media (max-width: 1280px) {
+  body main .skyBg .skyTitle1 h2 {
+    font-size: 228px;
+    top: 40px;
+  }
+}
+
+@media (max-width: 1024px) {
+  body main .skyBg .skyTitle1 h2 {
+    left: 10px;
+  }
+}
+
+@media (max-width: 670px) {
+  body main .skyBg .skyTitle1 h2 {
+    font-size: 168px;
+  }
+}
+
+@media (max-width: 500px) {
+  body main .skyBg .skyTitle1 h2 {
+    font-size: 128px;
+  }
+}
+
+body main .skyBg .skyTitle2 h2 {
+  position: absolute;
+  top: 140px;
+  right: -30px;
+  font-size: 295px;
+  line-height: 1;
+  color: black;
+  font-weight: 600;
+}
+
+@media (max-width: 1460px) {
+  body main .skyBg .skyTitle2 h2 {
+    top: 180px;
+  }
+}
+
+@media (max-width: 1280px) {
+  body main .skyBg .skyTitle2 h2 {
+    font-size: 228px;
+    top: 220px;
+    right: 10px;
+  }
+}
+
+@media (max-width: 670px) {
+  body main .skyBg .skyTitle2 h2 {
+    font-size: 168px;
+  }
+}
+
+@media (max-width: 500px) {
+  body main .skyBg .skyTitle2 h2 {
+    font-size: 128px;
+  }
+}
+
+body main .skyBg .skyimg {
+  position: absolute;
+  top: 600px;
+  left: 500px;
+}
+
+@media (max-width: 1280px) {
+  body main .skyBg .skyimg {
+    display: none;
+  }
+}
+
+body main .engagingBg {
+  background-color: #cccccc;
+  min-height: 820px;
+  padding: 3% 8% 9%;
+  position: relative;
+}
+
+@media (max-width: 1280px) {
+  body main .engagingBg {
+    min-height: 668px;
+  }
+}
+
+@media (max-width: 670px) {
+  body main .engagingBg {
+    min-height: 468px;
+  }
+}
+
+body main .engagingBg .engagingH2 {
+  margin-bottom: 90px;
+}
+
+body main .engagingBg .engagingH2 h2 {
+  color: black;
+  font-size: 128px;
+  line-height: 150px;
+  font-weight: 600;
+}
+
+@media (max-width: 1280px) {
+  body main .engagingBg .engagingH2 h2 {
+    font-size: 96px;
+    line-height: 104px;
+  }
+}
+
+@media (max-width: 1024px) {
+  body main .engagingBg .engagingH2 h2 {
+    font-size: 86px;
+    line-height: 90px;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 670px) {
+  body main .engagingBg .engagingH2 h2 {
+    font-size: 64px;
+    line-height: 70px;
+  }
+}
+
+@media (max-width: 500px) {
+  body main .engagingBg .engagingH2 h2 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+}
+
+body main .engagingBg .engagingP {
+  max-width: 384px;
+  color: black;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+body main .engagingBg .engagingImg {
+  position: absolute;
+  top: 200px;
+  right: 0;
+  max-width: 1000px;
+  z-index: 1;
+}
+
+@media (max-width: 1940px) {
+  body main .engagingBg .engagingImg {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 1680px) {
+  body main .engagingBg .engagingImg {
+    max-width: 50vw;
+  }
+}
+
+@media (max-width: 1024px) {
+  body main .engagingBg .engagingImg {
+    max-width: 70vw;
+    right: -20vw;
+  }
+}
+
+@media (max-width: 767px) {
+  body main .engagingBg .engagingImg {
+    max-width: 60vw;
+  }
+}
+
+@media (max-width: 670px) {
+  body main .engagingBg .engagingImg {
+    display: none;
+  }
+}
+
+body main .space {
+  background-image: url(./img/space.jpg);
+  width: 100%;
+  min-height: 768px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+@media (max-width: 1280px) {
+  body main .space {
+    min-height: 668px;
+  }
+}
+
+@media (max-width: 500px) {
+  body main .space {
+    min-height: 568px;
+  }
+}
+
+body main .space .item1 {
+  position: absolute;
+  top: 185px;
+  left: 165px;
+  z-index: 1;
+}
+
+@media (max-width: 1460px) {
+  body main .space .item1 {
+    top: 40vh;
+    left: 65px;
+  }
+}
+
+@media (max-width: 500px) {
+  body main .space .item1 {
+    display: none;
+  }
+}
+
+body main .space .item2 {
+  position: absolute;
+  top: -95px;
+  left: 340px;
+}
+
+@media (max-width: 1460px) {
+  body main .space .item2 {
+    top: -75px;
+    left: 50%;
+    margin: 0px 0px 0px -215px;
+  }
+}
+
+@media (max-width: 500px) {
+  body main .space .item2 {
+    width: 100%;
+    max-width: 50%;
+    left: 30%;
+    margin: 0px;
+  }
+  body main .space .item2 img {
+    max-width: 100%;
+  }
+}
+
+body main .space .item5 {
+  position: absolute;
+  top: -125px;
+  left: 620px;
+}
+
+@media (max-width: 1460px) {
+  body main .space .item5 {
+    top: 80px;
+    left: auto;
+    right: 60px;
+  }
+}
+
+@media (max-width: 500px) {
+  body main .space .item5 {
+    display: none;
+  }
+}
+
+body main .space .item4 {
+  position: absolute;
+  top: 530px;
+  right: 85px;
+}
+
+@media (max-width: 500px) {
+  body main .space .item4 {
+    display: none;
+  }
+}
+
+body main .space .item3 {
+  position: absolute;
+  top: 370px;
+  right: 220px;
+  z-index: 1;
+}
+
+@media (max-width: 1460px) {
+  body main .space .item3 {
+    top: 470px;
+    right: 220px;
+  }
+}
+
+@media (max-width: 768px) {
+  body main .space .item3 {
+    display: none;
+  }
+}
+
+body main .fourCard-2 {
+  width: 100%;
+  padding: 0 10%;
+  min-height: 384px;
+  margin-bottom: 160px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (max-width: 1024px) {
+  body main .fourCard-2 {
+    padding: unset;
+    margin: unset;
+  }
+}
+
+body main .fourCard-2 .card-1 {
+  width: 25%;
+  padding: 26px;
+}
+
+@media (max-width: 1024px) {
+  body main .fourCard-2 .card-1 {
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  body main .fourCard-2 .card-1 {
+    width: 100%;
+    min-height: 260px;
+  }
+}
+
+body main .fourCard-2 .card-1 h2 {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 600;
+  height: 285px;
+}
+
+@media (max-width: 1280px) {
+  body main .fourCard-2 .card-1 h2 {
+    font-size: 28px;
+  }
+}
+
+body main .fourCard-2 .card-1 p {
+  font-size: 14px;
+}
+
+body main .fourCard-2 .card-1:nth-child(1) {
+  color: white;
+  position: relative;
+}
+
+body main .fourCard-2 .card-1:nth-child(1):hover {
+  color: black;
+}
+
+body main .fourCard-2 .card-1:nth-child(1) svg {
+  fill: white;
+}
+
+body main .fourCard-2 .card-1:nth-child(1) svg:hover {
+  fill: black;
+}
+
+body main .fourCard-2 .card-1:nth-child(2) {
+  color: white;
+  position: relative;
+}
+
+body main .fourCard-2 .card-1:nth-child(2):hover {
+  color: black;
+}
+
+body main .fourCard-2 .card-1:nth-child(2) svg {
+  fill: white;
+}
+
+body main .fourCard-2 .card-1:nth-child(2) svg:hover {
+  fill: black;
+}
+
+body main .fourCard-2 .card-1:nth-child(3) {
+  position: relative;
+}
+
+body main .fourCard-2 .card-1:nth-child(4) {
+  position: relative;
+}
+
+body main .fourCard-2 #fourCard-2-1:hover {
+  background-color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body main .fourCard-2 #fourCard-2-2 {
+  background-color: #393939;
+}
+
+body main .fourCard-2 #fourCard-2-2:hover {
+  background-color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body main .fourCard-2 #fourCard-2-3 {
+  background-color: #767676;
+}
+
+body main .fourCard-2 #fourCard-2-3:hover {
+  background-color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body main .fourCard-2 #fourCard-2-4 {
+  background-color: #cccccc;
+}
+
+body main .fourCard-2 #fourCard-2-4:hover {
+  background-color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body main .newsList {
+  width: 100%;
+  padding: 0 10%;
+}
+
+@media (max-width: 960px) {
+  body main .newsList {
+    padding: 5% 5% 0;
+  }
+}
+
+body main .newsList .newsItems {
+  width: 50%;
+  font-size: 32px;
+  color: white;
+}
+
+@media (max-width: 960px) {
+  body main .newsList .newsItems {
+    width: 100%;
+  }
+}
+
+body main .newsList .connectUs {
+  padding: 0px 320px 35px 0;
+  width: 50%;
+  font-size: 16px;
+  color: white;
+  position: relative;
+}
+
+@media (max-width: 1680px) {
+  body main .newsList .connectUs {
+    width: 50%;
+    padding: 0px 16px 35px;
+  }
+}
+
+@media (max-width: 960px) {
+  body main .newsList .connectUs {
+    width: 100%;
+  }
+}
+
+body main .newsList .connectUs a {
+  color: white;
+  -webkit-transition: 0s;
+  transition: 0s;
+  margin-left: 8%;
+}
+
+body main .newsList .connectUs a::before {
+  content: "";
+  width: 22px;
+  height: 16px;
+  background-image: url(./img/arrow-white.svg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+}
+
+@media (max-width: 960px) {
+  body main .newsList .connectUs a::before {
+    left: 3%;
+  }
+}
+
+body main .newsList .connectUs a:hover {
+  color: gray;
+}
+
+body footer {
+  width: 100%;
+  height: 48px;
+  padding: 12px 10%;
+}
+
+body footer .inner {
+  width: 100%;
+  height: 100%;
+}
+
+body footer .inner .logo {
+  width: 16px;
+  min-width: 20px;
+}
+
+body footer .inner .logo .logobox1 {
+  background-color: white;
+  width: 7px;
+  height: 7px;
+  margin: 0 2px 2px 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body footer .inner .logo .logobox2 {
+  background-color: white;
+  width: 7px;
+  height: 7px;
+  margin: 0 0 2px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body footer .inner .logo .logobox3 {
+  background-color: white;
+  width: 7px;
+  height: 7px;
+  margin: 0 2px 0 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body footer .inner .logo .logobox4 {
+  background-color: white;
+  width: 7px;
+  height: 7px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body footer .inner .logo:hover .logobox1 {
+  background-color: red;
+}
+
+body footer .inner .logo:hover .logobox2 {
+  background-color: green;
+}
+
+body footer .inner .logo:hover .logobox3 {
+  background-color: darkcyan;
+}
+
+body footer .inner .logo:hover .logobox4 {
+  background-color: orange;
+}
+
+body footer .inner .navigationLists {
+  width: 60vw;
+  list-style: none;
+  font-size: 12px;
+}
+
+@media (max-width: 1024px) {
+  body footer .inner .navigationLists {
+    width: 100%;
+  }
+}
+
+body footer .inner .navigationLists a {
+  color: white;
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+
+body footer .inner .navigationLists a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+body footer .inner .social {
+  width: 15%;
+  height: 100%;
+  margin: 0 -35px 0 0;
+}
+
+@media (max-width: 1024px) {
+  body footer .inner .social {
+    width: 25%;
+  }
+}
+
+body footer .inner .social .icon {
+  width: 25px;
+  background-size: cover;
+  background-position: center;
+}
+
+body footer .inner .social .icon:nth-child(1) {
+  fill: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body footer .inner .social .icon:nth-child(1):hover {
+  fill: #54a4cd;
+}
+
+body footer .inner .social .icon:nth-child(2) {
+  fill: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body footer .inner .social .icon:nth-child(2):hover {
+  fill: #ea4c89;
+}
+
+body footer .inner .social .icon:nth-child(3) {
+  fill: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body footer .inner .social .icon:nth-child(3):hover {
+  fill: #38a1f3;
+}
+
+body footer .inner .social .icon:nth-child(4) {
+  fill: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body footer .inner .social .icon:nth-child(4):hover {
+  fill: #00ab6c;
+}
+
+body footer .inner .social .icon:nth-child(5) {
+  fill: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body footer .inner .social .icon:nth-child(5):hover {
+  fill: #3b5998;
+}
+/*# sourceMappingURL=style.css.map */
