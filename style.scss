@@ -733,17 +733,19 @@ body {
             }
           }
         }
+        
         &:nth-child(2) {
           color: white;
           position: relative;
           &:hover {
             color: black;
+
+            svg {
+              fill: black;
+            }
           }
           svg {
             fill: white;
-            &:hover {
-              fill: black;
-            }
           }
         }
         &:nth-child(3) {
@@ -757,12 +759,23 @@ body {
         background-color: white;
         transition: 0.3s;
       }
+      // #fourCard-2-1:hover > .microsoftDesign{
+      //   svg {
+      //     fill: black;
+      //   }
+      }
+
       #fourCard-2-2 {
         background-color: rgb(57, 57, 57);
         &:hover {
           background-color: white;
           transition: 0.3s;
         }
+      }
+      // #fourCard-2-2:hover > .microsoftDesign{
+      //   svg {
+      //     fill: black;
+      //   }
       }
       #fourCard-2-3 {
         background-color: rgb(118, 118, 118);
@@ -771,6 +784,7 @@ body {
           transition: 0.3s;
         }
       }
+      
       #fourCard-2-4 {
         background-color: rgb(204, 204, 204);
         &:hover {

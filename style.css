@@ -1081,6 +1081,10 @@ body main .fourCard-2 #fourCard-2-1:hover {
   transition: 0.3s;
 }
 
+body main .fourCard-2 #fourCard-2-1:hover > .microsoftDesign svg {
+  fill: black;
+}
+
 body main .fourCard-2 #fourCard-2-2 {
   background-color: #393939;
 }
@@ -1089,6 +1093,10 @@ body main .fourCard-2 #fourCard-2-2:hover {
   background-color: white;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+
+body main .fourCard-2 #fourCard-2-2:hover > .microsoftDesign svg {
+  fill: black;
 }
 
 body main .fourCard-2 #fourCard-2-3 {
