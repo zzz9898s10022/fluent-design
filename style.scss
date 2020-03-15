@@ -725,15 +725,15 @@ body {
           position: relative;
           &:hover {
             color: black;
-          }
-          svg {
-            fill: white;
-            &:hover {
+            svg {
               fill: black;
             }
           }
+          svg {
+            fill: white;
+          }
         }
-        
+
         &:nth-child(2) {
           color: white;
           position: relative;
@@ -763,7 +763,7 @@ body {
       //   svg {
       //     fill: black;
       //   }
-      }
+      // }
 
       #fourCard-2-2 {
         background-color: rgb(57, 57, 57);
@@ -776,7 +776,7 @@ body {
       //   svg {
       //     fill: black;
       //   }
-      }
+      // }
       #fourCard-2-3 {
         background-color: rgb(118, 118, 118);
         &:hover {
@@ -784,7 +784,7 @@ body {
           transition: 0.3s;
         }
       }
-      
+
       #fourCard-2-4 {
         background-color: rgb(204, 204, 204);
         &:hover {
@@ -850,14 +850,49 @@ body {
   footer {
     width: 100%;
     height: 48px;
-    padding: 12px 10%;
+    @media (max-width: 1024px) {
+      height: auto;
+      padding: 0px 0px 18px;
+    }
+    @media (max-width: 767px) {
+      display: block;
+    }
+    // width: 100%;
+    // height: 48px;
+    // padding: 12px 10%;
     .inner {
-      width: 100%;
-      height: 100%;
+      // width: 100%;
+      // height: 100%;
+      width: 1536px;
+      margin: 0px auto;
+      @media (max-width: 1680px) {
+        width: 1336px;
+      }
+      @media (max-width: 1460px) {
+        width: 1136px;
+      }
+      @media (max-width: 1280px) {
+        width: 960px;
+      }
+      @media (max-width: 1024px) {
+        width: 100%;
+        flex-wrap: wrap;
+        position: relative;
+        padding: 0px 30px;
+      }
+      @media (max-width: 960px) {
+        width: 100%;
+        padding: 0px 30px;
+      }
+      @media (max-width: 670px) {
+        width: 100%;
+        padding: 10px 30px 0px;
+      }
       .logo {
         width: 16px;
         min-width: 20px;
-        @media (max-width:1024px) {
+        margin: 0 10px 10px;
+        @media (max-width: 1024px) {
         }
 
         .logobox1 {
@@ -902,28 +937,85 @@ body {
           }
         }
       }
-      .navigationLists {
-        width: 60vw;
-        list-style: none;
-        font-size: 12px;
+
+      .navigation {
+        height: 48px;
+        flex: 1 1 auto;
+        padding: 0px 100px 0px 0px;
         @media (max-width: 1024px) {
           width: 100%;
+          height: auto;
+          flex: 1 1 auto;
+          padding: 0px;
         }
-        a {
-          color: white;
-          transition: 0s;
-          &:hover {
-            color: gray;
-            text-decoration: underline;
+
+        .navigationLists {
+          // width: 60%;
+          // list-style: none;
+          // font-size: 12px;
+          // @media (max-width: 1024px) {
+          //   width: 100%;
+          // }
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          margin: 0px;
+          padding: 0px;
+          list-style: none;
+          @media (max-width: 670px) {
+            justify-content: flex-start;
+            flex-wrap: wrap;
+          }
+          .navigationList {
+            width: auto;
+            color: rgb(255, 255, 255);
+            line-height: 48px;
+            font-weight: 400;
+            margin: 0px;
+            padding: 0px;
+            @media (max-width: 670px) {
+              line-height: 30px;
+              margin: 0px 20px 0px 0px;
+            }
+          }
+          a {
+            color: white;
+            transition: 0s;
+            font-size: 12px;
+            &:hover {
+              color: gray;
+              text-decoration: underline;
+            }
           }
         }
       }
+
       .social {
-        width: 15%;
-        height: 100%;
-        margin: 0 -35px 0 0;
+        // width: 15%;
+        // height: 100%;
+        // margin: 0 -35px 0 0;
+        // @media (max-width: 1024px) {
+        //   width: 25%;
+        // }
+        display: flex;
+        height: 48px;
         @media (max-width: 1024px) {
-          width: 25%;
+          width: 50%;
+          top: 0px;
+          justify-content: flex-end;
+          position: absolute;
+          right: 30px;
+          flex: 1 1 auto;
+          padding: 0px;
+        }
+        @media (max-width: 500px) {
+          position: relative;
+          width: 100%;
+          justify-content: flex-start;
+          right: auto;
+          left: auto;
+          top: auto;
+          margin: 16px 0px 0px;
         }
         .icon {
           width: 25px;

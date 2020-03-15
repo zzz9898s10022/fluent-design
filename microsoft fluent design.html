@@ -147,7 +147,9 @@
         </div>
 
         <div class="position-relative z-index-2">
-            <div class="terrafomaBg">
+            
+            <div class="terrafomaBg lax" data-lax-scale-x="2000 1,1900 1.3"
+            data-lax-scale-y="2000 1.3,1900 1">
                 <div class="terraTitle">
                     <h2>Intuitive and <br>powerful</h2>
                 </div>
@@ -299,7 +301,7 @@
     </main>
 
     <footer class="styledFooter">
-        <div class="inner d-flex justify-content-between">
+        <div class="inner d-flex justify-content-between flex-wrap">
             <div class="logo">
                 <div class="logoboxs d-flex flex-wrap ">
                     <div class="logobox1"></div>
@@ -426,10 +428,28 @@
     <!-- bootstrap -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- aos.js -->
+    <script src="https://cdn.jsdelivr.net/npm/lax.js"></script>
+    <!-- lax.js -->
     <script>
         $(function () {
             AOS.init();
         })
+        // aos效果
+        window.onload = function () {
+            lax.setup() // init
+
+            const updateLax = () => {
+                lax.update(window.scrollY)
+                window.requestAnimationFrame(updateLax)
+            }
+
+            window.requestAnimationFrame(updateLax)
+        }
+        // lax效果
+       window.onscroll = function(){
+            console.log(document.documentElement.scrollTop);
+        }
+        // 監測滾軸位置
     </script>
 </body>
 
