@@ -275,7 +275,7 @@ body main .styleIntroduction .media-sc {
 
 @media (max-width: 1280px) {
   body main .styleIntroduction .media-sc {
-    padding: 0px 40px;
+    padding: 0 0 0 40px;
   }
 }
 
